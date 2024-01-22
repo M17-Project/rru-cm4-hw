@@ -2377,7 +2377,7 @@
           (reference "#PWR03") (unit 1)
         )
         (path "/26152054-c498-4233-a311-ae5a54cf1383/1121b73d-0dff-4516-83a2-d497447544a0"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -2408,7 +2408,7 @@
           (reference "#PWR03") (unit 1)
         )
         (path "/26152054-c498-4233-a311-ae5a54cf1383/1121b73d-0dff-4516-83a2-d497447544a0"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -2490,7 +2490,7 @@
           (reference "R1") (unit 1)
         )
         (path "/26152054-c498-4233-a311-ae5a54cf1383/1121b73d-0dff-4516-83a2-d497447544a0"
-          (reference "R4") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
       (project "m17-rru-rf"
@@ -2528,6 +2528,12 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 91.44 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "649-1012938391001ALF" (at 91.44 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "PN" "649-1012938391001ALF" (at 91.44 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ff32aa07-e031-45fd-9174-e36891d4350e))
@@ -2578,7 +2584,7 @@
           (reference "R1") (unit 1)
         )
         (path "/26152054-c498-4233-a311-ae5a54cf1383/1121b73d-0dff-4516-83a2-d497447544a0"
-          (reference "R5") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
       (project "m17-rru-rf"
@@ -2628,7 +2634,7 @@
           (reference "#PWR03") (unit 1)
         )
         (path "/26152054-c498-4233-a311-ae5a54cf1383/1121b73d-0dff-4516-83a2-d497447544a0"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -2663,7 +2669,7 @@
           (reference "C2") (unit 1)
         )
         (path "/26152054-c498-4233-a311-ae5a54cf1383/1121b73d-0dff-4516-83a2-d497447544a0"
-          (reference "C2") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
       (project "m17-rru-rf"

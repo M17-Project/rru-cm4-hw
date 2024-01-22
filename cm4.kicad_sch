@@ -2024,7 +2024,7 @@
   (symbol (lib_id "power:+3.3V") (at 189.23 176.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 06cf3922-4389-493c-8ed6-7e385feb7799)
-    (property "Reference" "#PWR015" (at 189.23 180.34 0)
+    (property "Reference" "#PWR05" (at 189.23 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 189.23 172.3969 0)
@@ -2040,7 +2040,7 @@
     (instances
       (project "m17-rru-cm4"
         (path "/26152054-c498-4233-a311-ae5a54cf1383/3aa82914-11c8-4bf6-b7a9-00486758c5fe"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -2075,7 +2075,7 @@
           (reference "C2") (unit 1)
         )
         (path "/26152054-c498-4233-a311-ae5a54cf1383/3aa82914-11c8-4bf6-b7a9-00486758c5fe"
-          (reference "C7") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
       (project "m17-rru-rf"
@@ -2122,7 +2122,7 @@
           (reference "#PWR01") (unit 1)
         )
         (path "/26152054-c498-4233-a311-ae5a54cf1383/3aa82914-11c8-4bf6-b7a9-00486758c5fe"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -2143,10 +2143,10 @@
     (property "Datasheet" "~" (at 80.01 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "PN" "" (at 80.01 100.33 90)
+    (property "PN" "604-APT1608SECK-AMT" (at 80.01 100.33 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "" (at 80.01 100.33 90)
+    (property "MPN" "604-APT1608SECK-AMT" (at 80.01 100.33 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid aae3c963-0e35-40db-84c2-01fba31c79fe))
@@ -2182,7 +2182,7 @@
           (reference "#PWR01") (unit 1)
         )
         (path "/26152054-c498-4233-a311-ae5a54cf1383/3aa82914-11c8-4bf6-b7a9-00486758c5fe"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -2194,7 +2194,7 @@
     (property "Reference" "R1" (at 76.2 90.17 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1k" (at 76.2 92.71 0)
+    (property "Value" "470R" (at 76.2 92.71 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 80.01 91.44 0)
@@ -2203,10 +2203,10 @@
     (property "Datasheet" "~" (at 80.01 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "PN" "CRCW06031K00JNECC" (at 80.01 91.44 0)
+    (property "PN" "71-CRCW0603J-470-E3" (at 80.01 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "CRCW06031K00JNECC" (at 80.01 91.44 0)
+    (property "MPN" "71-CRCW0603J-470-E3" (at 80.01 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid cf9ff57f-600e-4556-93ae-8024752550e2))
@@ -2217,7 +2217,7 @@
           (reference "R1") (unit 1)
         )
         (path "/26152054-c498-4233-a311-ae5a54cf1383/3aa82914-11c8-4bf6-b7a9-00486758c5fe"
-          (reference "R6") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
       (project "m17-rru-rf"
@@ -2478,7 +2478,7 @@
   (symbol (lib_id "power:+3.3V") (at 80.01 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c1dd9757-5e13-4e1f-91d1-cd80eee7e079)
-    (property "Reference" "#PWR016" (at 80.01 90.17 0)
+    (property "Reference" "#PWR01" (at 80.01 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 80.01 82.2269 0)
@@ -2494,7 +2494,7 @@
     (instances
       (project "m17-rru-cm4"
         (path "/26152054-c498-4233-a311-ae5a54cf1383/3aa82914-11c8-4bf6-b7a9-00486758c5fe"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -2522,7 +2522,7 @@
           (reference "#PWR01") (unit 1)
         )
         (path "/26152054-c498-4233-a311-ae5a54cf1383/3aa82914-11c8-4bf6-b7a9-00486758c5fe"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -2837,7 +2837,7 @@
           (reference "#PWR01") (unit 1)
         )
         (path "/26152054-c498-4233-a311-ae5a54cf1383/3aa82914-11c8-4bf6-b7a9-00486758c5fe"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -2865,7 +2865,7 @@
           (reference "#PWR01") (unit 1)
         )
         (path "/26152054-c498-4233-a311-ae5a54cf1383/3aa82914-11c8-4bf6-b7a9-00486758c5fe"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
