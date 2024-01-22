@@ -2524,7 +2524,7 @@
     (property "Value" "Conn_02x05_Odd_Even" (at 92.71 87.1799 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 91.44 95.25 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical_SMD" (at 91.44 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 91.44 95.25 0)
