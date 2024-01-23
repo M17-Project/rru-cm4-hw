@@ -2291,7 +2291,7 @@
   (gr_text "UART_RX" (at 160.02 115.316) (layer "F.SilkS") (tstamp b5c2c667-d4da-46fa-9224-cd062908083c)
     (effects (font (size 1 1) (thickness 0.15)) (justify right bottom))
   )
-  (gr_text "RRU Interface Board\nWojciech Kaczmarski SP5WWP\nM17 Project, January 2024" (at 107.442 96.266 90) (layer "F.SilkS") (tstamp b899ed07-2b02-4da4-8b5a-1ec1697dd9b4)
+  (gr_text "RRU Interface Board\nWojciech Kaczmarski, SP5WWP\nM17 Project, January 2024" (at 107.442 96.266 90) (layer "F.SilkS") (tstamp b899ed07-2b02-4da4-8b5a-1ec1697dd9b4)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
   (gr_text "GND" (at 160.528 113.792) (layer "F.SilkS") (tstamp bcb8c7c9-cc8b-4d3a-bfab-42eea8ac2ddd)
