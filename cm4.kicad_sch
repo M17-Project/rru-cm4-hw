@@ -6,7 +6,7 @@
 
   (title_block
     (title "RRU CM4 board")
-    (date "22-01-2024")
+    (date "23-01-2024")
     (rev "A")
     (company "M17 Project")
     (comment 1 "Wojciech Kaczmarski, SP5WWP")
@@ -2068,7 +2068,7 @@
   (symbol (lib_id "power:+3.3V") (at 189.23 176.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 06cf3922-4389-493c-8ed6-7e385feb7799)
-    (property "Reference" "#PWR05" (at 189.23 180.34 0)
+    (property "Reference" "#PWR09" (at 189.23 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 189.23 172.3969 0)
@@ -2084,7 +2084,7 @@
     (instances
       (project "m17-rru-cm4"
         (path "/26152054-c498-4233-a311-ae5a54cf1383/3aa82914-11c8-4bf6-b7a9-00486758c5fe"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -2166,7 +2166,7 @@
           (reference "#PWR01") (unit 1)
         )
         (path "/26152054-c498-4233-a311-ae5a54cf1383/3aa82914-11c8-4bf6-b7a9-00486758c5fe"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -2226,7 +2226,7 @@
           (reference "#PWR01") (unit 1)
         )
         (path "/26152054-c498-4233-a311-ae5a54cf1383/3aa82914-11c8-4bf6-b7a9-00486758c5fe"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -2522,7 +2522,7 @@
   (symbol (lib_id "power:+3.3V") (at 80.01 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c1dd9757-5e13-4e1f-91d1-cd80eee7e079)
-    (property "Reference" "#PWR01" (at 80.01 90.17 0)
+    (property "Reference" "#PWR05" (at 80.01 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 80.01 82.2269 0)
@@ -2538,7 +2538,7 @@
     (instances
       (project "m17-rru-cm4"
         (path "/26152054-c498-4233-a311-ae5a54cf1383/3aa82914-11c8-4bf6-b7a9-00486758c5fe"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -2566,7 +2566,7 @@
           (reference "#PWR01") (unit 1)
         )
         (path "/26152054-c498-4233-a311-ae5a54cf1383/3aa82914-11c8-4bf6-b7a9-00486758c5fe"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -2881,7 +2881,7 @@
           (reference "#PWR01") (unit 1)
         )
         (path "/26152054-c498-4233-a311-ae5a54cf1383/3aa82914-11c8-4bf6-b7a9-00486758c5fe"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -2909,7 +2909,7 @@
           (reference "#PWR01") (unit 1)
         )
         (path "/26152054-c498-4233-a311-ae5a54cf1383/3aa82914-11c8-4bf6-b7a9-00486758c5fe"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
